@@ -34,10 +34,10 @@ function App() {
         <Router>
           <Routes>
             <Route element={<PubliceRoute />}>
-              <Route path="/" element={<Login />} />
+              <Route path="/login" element={<Login />} />
             </Route>
             <Route element={<PrivateRoute />}>
-              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
             </Route>
           </Routes>
         </Router>
